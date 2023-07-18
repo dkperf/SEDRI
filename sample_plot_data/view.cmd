@@ -1,0 +1,1 @@
+..\wplot  ..\solar.dpt
