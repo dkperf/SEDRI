@@ -114,6 +114,7 @@ Edit the solar.dpt file to adjust/add items on your plot.
 ## Other Info / Documentation
 
 [SolarEdge Server API] (https://knowledge-center.solaredge.com/sites/kc/files/se_monitoring_api.pdf)
+
 [SolarEdge Server API key] (https://www.solaredge.com/us/node/88689)
 
 ## Project details
