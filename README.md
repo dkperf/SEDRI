@@ -19,8 +19,8 @@ Per day data collected from solaredge servers includes:
 
      15 minute optimizer data ( Watts output ) for each optimizer (panel) in the system.  
       5 minute Inverter data ( Watt Hrs, dcVoltage, inverter temperature, acCurrent, inverter state )
-     Total Watt Hours collected once for each day.
-     Day outside temperature per hour and  max/min temps and daylight hours ( per zipcode )
+     Total Watt Hours produced by inverter collected once for each day.
+     Day outside temperature per hour and  max/min day temps and daylight hours ( per zipcode )
 
 Currently this project only supports reading data for one Inverter.
 
