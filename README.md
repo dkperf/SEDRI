@@ -27,7 +27,7 @@ Currently this project only supports reading data for one Inverter.
 Since all the solar data is being extracted from the solarEdge servers and not from
 the inverter directly, the data is time lagged.  I have chosen to only use
 the data from days that have already completed.  So currently this project only 
-extracts data that is from yesterday and previously.
+extracts data that is from yesterday and previous to that.
 
 
 ## PURPOSE
