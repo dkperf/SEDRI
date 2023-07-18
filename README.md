@@ -27,7 +27,7 @@ Currently this project only supports reading data for one Inverter.
 Since all the solar data is being extracted from the solarEdge servers and not from
 the inverter directly, the data is time lagged.  I have chosen to only use
 the data from days that have already completed.  So currently this project only 
-extracts data that is from yesterday and previous to that.
+extracts data that is from yesterday and days previous.
 
 
 ## PURPOSE
@@ -50,7 +50,6 @@ A cron job is used to get and store data daily.
 ## Installation
 
 Download the files in this project into your directory of choice.
-
 For a quick sample view of the solar panel/inverter data:
 
      cd to 'sample_plot_data'
@@ -63,6 +62,7 @@ For a quick sample view of the solar panel/inverter data:
      You can change all parameters of the graph by editing solar.dpt.
      Use menu->help->usage.help  in wplot.exe for info on parameter options.
 
+Create a directory named "data" in the directory you download the files into.
 
 Install python on your system.
 You might have to install python module pytz ( pip install pytz )
@@ -84,7 +84,7 @@ This is all in tData.py
 
 ## Usage
 
-Once your .py files are updated with correct SolarEdge user information you can
+Once your .py files are updated with correct SolarEdge user login information you can
 run each .py file by itself to see if login/API data is working correctly.
 
 The pData.py (panel Data) script has an extra step which involves determining
