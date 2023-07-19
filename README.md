@@ -99,6 +99,8 @@ if linux do chmod +x ./getAllData.cmd
 run 'getAllData.cmd'    to aquire your data; It will attempt to get past 15 days worth of data.
                         pData.py can only get 7 days of data.  Thats all solarEdge provides.
 
+The .py scripts will only retrieve data if the date file does not already exist on the local drive.
+
 run 'wplot.py'          to plot and examine your system data.
 
 Edit the solar.dpt file to adjust/add items on your plot.
