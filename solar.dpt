@@ -12,13 +12,13 @@ xdate
    
 
 # add limit line for AC power  ( This is for a 3.8Kw inverter )
-plot :acPower 1:2  t maxAC_Power*10(3.8Kw)     hline 27  dash
+plot :acPower 1:2  t maxAC_Power/10(3.8Kw)     hline 27  dash
 :acPower
 0 380
 end
 
 # add limit line for AC current  ( This is for a 3.8Kw inverter )
-plot :acLimit 1:2  t maxAC_Current/10(16A)   hline  25 dash
+plot :acLimit 1:2  t maxAC_Current*10(16A)   hline  25 dash
 :acLimit
 0 160
 
