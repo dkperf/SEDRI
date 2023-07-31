@@ -101,9 +101,10 @@ run 'getAllData.cmd'    to aquire your data; It will attempt to get past 15 days
 
 The .py scripts will only retrieve data if the date file does not already exist on the local drive.
 
+Edit the solar.dpt file to adjust/add items on your plot for your local system.
+
 run 'wplot.py'          to plot and examine your system data.
 
-Edit the solar.dpt file to adjust/add items on your plot.
 
 
 ## Acknowledgements
@@ -126,9 +127,10 @@ When the getalldata command file is run there are 4 python scripts that are exec
 pData.py iData.py wData.py tData.py 
 
 Each of these scripts connect to solaredge servers and extract data requested.
-Once data has been received and parsed the data is reformated and stored in the \data directory.
+Once data has been received and parsed the data is reformated and stored in the data\ 
+directory as text data files with date codes as titles.
 
-Another command file is run 'wplot.py'.  This program collects/combines the many data files in
+Another command file is 'wplot.py'.  This program collects/combines the many data files in
 the data ( one for each day ) directory ( for a date range )  and combines them into a single 
 datafile that the wplot.exe program uses to display the data.
 
