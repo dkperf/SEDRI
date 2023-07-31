@@ -3,7 +3,7 @@
 # wplot command file to show Solaredge panel and Inverter data
 #
 
-bgcolor xF3FFF3
+#bgcolor xF3FFF3
 
 #wxsize 1500
 #wysize 1000
@@ -18,8 +18,7 @@ plot :acPower 1:2  t maxAC_Power*10(3.8Kw)     hline 27  dash
 end
 
 # add limit line for AC current  ( This is for a 3.8Kw inverter )
-#plot :acLimit 1:2  t maxAC_Current/10(16A)   hline  25 dash
-plot embeded 1:2  t maxAC_Current/10(16A)   hline  25 dash
+plot :acLimit 1:2  t maxAC_Current/10(16A)   hline  25 dash
 :acLimit
 0 160
 
