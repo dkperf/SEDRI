@@ -61,7 +61,8 @@ For a quick sample view of the solar panel/inverter data:
      See if this is what you are looking for before doing the work of full install.
      You can change all parameters of the graph by editing solar.dpt.
      Use menu->help->usage.help  in wplot.exe for info on parameter options.
-
+     
+<img src="sample_plot_data\SEDRI.png"/>
 Create a directory named "data" in the directory you download the files into.
 
 Install python on your system.
